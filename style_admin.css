@@ -1,0 +1,160 @@
+*{
+	padding:0;
+	margin:0;
+}
+.clear{
+	clear:both;
+}
+body{
+	font-family: 'Times New Roman',arial;
+	font-size:18px;
+	
+}
+input[type='submit']{
+	cursor: pointer;
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#fff;
+	
+}
+input.short[type='text'],
+input.short[type='password']{
+	width: 200px;
+}
+input.medium[type='text'],
+input.medium[type='password']{
+	width: 400px;
+}
+input.long[type='text'],
+input.long[type='password']{
+	width: 600px;
+}
+
+#wrapper-login{
+	width:350px;
+	height:180px;
+	margin:150px  auto;
+	background-color:#d9dbd8;
+	padding:30px;
+
+}
+#wrapper-login h1{
+	font-size:20px;
+	border-bottom:1px solid #000;
+	margin-bottom:20px;
+}
+#wrapper-login table tr td{
+	padding:0px 10px;
+}
+#wrapper-login table tr td input[type='text'],
+#wrapper-login table tr td input[type='password']{
+	width:200px;
+	height:23px;
+	line-height:23px
+}
+#wrapper-login table tr td input[type='submit']{
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#fff;
+	border: none;
+	margin-top: 10px;
+	float: right;
+	font-size:16px;
+}
+
+#wrapper{
+	width:900px;
+	height: auto;
+	margin: 0 auto;
+	border:1px solid #000;
+	overflow: hidden;
+	padding: 10px;
+	background-color: #e6e8e5;
+}
+#header{
+	width: 900px;
+	height: 50px;
+}
+#header h1{
+	color:#000;
+	font-size: 26px;
+	border-bottom:3px solid #3d9ccd;
+}
+#cintainer{
+	width: 900px;
+	height: auto;
+	min-height: 500px;
+}
+#sidebar{
+	width: 200px;
+	height: auto;
+	float: left;
+	margin-right:15px ;
+}
+#sidebar h2{
+	border-bottom:1px solid #3d9ccd;
+	color:#fff;
+	font-size: 18px;
+	background-color: #3d9ccd;
+	padding: 2px 10px;
+	margin-top: 10px;
+}
+#sidebar ul li{
+	list-style: none;
+	font-size: 16px;
+	margin-left: 10px;
+	padding: 2px;
+
+}
+#sidebar ul li a{
+	text-decoration: none;
+}
+#sidebar ul li a:hover{
+	color:#fff;
+	background-color: #3d9ccd;
+	font-size: 20px;
+	padding: 2px;
+}
+#content{
+	width: 680px;
+	height: auto;
+	float: left;
+}
+
+#content h2{
+	border-bottom:1px solid #3d9ccd;
+	color:#000;
+	font-size: 18px;
+	margin-top: 10px;
+	
+}
+table.tbl1{
+	margin-top: 10px;
+}
+table.tbl1 tr td input[type='text']{
+	font-size: 16px;
+	height: 23px;
+	line-height: 23px;
+}
+table.tbl2{
+	margin-top: 10px;
+}
+table.tbl2 tr td{
+	text-align: center;
+	padding: 3px;
+}
+table.tbl2 tr th{
+	background-color: #3d9ccd;
+	color: #fff;
+	padding: 3px;
+}
+table.tbl2 tr:nth-child(2n+1) td{
+	background-color: #d9dad9;
+}
+table.tbl2 tr:nth-child(2n) td{
+	background-color: #d2d3d1;
+}
+table.tbl2 tr td a{
+	color: #70726e;
+	text-decoration: none;
+}
